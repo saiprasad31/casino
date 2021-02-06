@@ -30,21 +30,12 @@ function ElevationScroll(props) {
 }
 
 const useStyles = makeStyles((theme) => ({
-  logo: {
-    width: "4em",
-    borderRadius: "5px",
-    margin: "10px 0",
-  },
   header: {
     backgroundColor: "#fff",
     boxShadow: "0 1px 1px #D7D8D9",
   },
   buttoncontainer: {
     marginLeft: "auto",
-  },
-  loginButton: {
-    color: theme.palette.primary.main,
-    fontWeight: 600,
   },
   signupButton: {
     marginLeft: "1em",
